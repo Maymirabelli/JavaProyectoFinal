@@ -1,0 +1,87 @@
+$color2: #fff1ac;
+$color1: #642430;
+$fontcolor: #004aad;
+$fuente: Verdana;
+$titulosize: 40px;
+
+
+
+/*HEADER*/
+.encabezado{
+    max-height: 20vw;
+    background-color: $color2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: auto;
+    padding-right: 3vw ;
+    margin-bottom: 3vw;
+}
+    .encabezado__logo{
+        width: 20vw;
+        
+    }
+    .encabezado__titulo{
+        font-family: Verdana; 
+        color: $color1 ; 
+        font-size: 40px; 
+        display:inline ; 
+        text-align: center;
+        align-content: center;
+    }
+
+
+
+.card.mb-3{
+    margin: auto;  
+    max-width: 60vw;
+    align-items: center;
+    align-content: center;
+    font-family: $fuente;
+    color: $fontcolor;
+}
+    .card-img-top{
+        margin-bottom: 2vw;
+        max-width: 10vw;
+        max-height: 10vw;
+        align-content: center;
+    }
+    .btn{
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        
+    }
+
+#form{
+    margin: auto;  
+    max-width: 60vw;
+    font-family: $fuente;
+    color: $fontcolor;
+}
+    
+
+#recetasweb{
+    align-items: center;
+    align-content: center;
+    margin-left: 20vw;
+}
+    
+#tarjetaPaciente{
+    max-height: 10vw;
+    background-color: $color2;
+    align-items: center;
+    align-content: center;
+    border-style: solid;
+    color: $color1;
+    margin: auto;
+}
+    .paciente{
+        font-family: $fuente;
+        color: $color1;
+        font-size: 20;
+        align-content: center;
+        text-align: center;
+    }
+    
+    
+        

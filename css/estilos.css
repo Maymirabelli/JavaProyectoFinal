@@ -1,0 +1,66 @@
+/*HEADER*/
+.encabezado {
+  max-height: 20vw;
+  background-color: #fff1ac;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  padding-right: 3vw;
+  margin-bottom: 3vw; }
+
+.encabezado__logo {
+  width: 20vw; }
+
+.encabezado__titulo {
+  font-family: Verdana;
+  color: #642430;
+  font-size: 40px;
+  display: inline;
+  text-align: center;
+  align-content: center; }
+
+.card.mb-3 {
+  margin: auto;
+  max-width: 60vw;
+  align-items: center;
+  align-content: center;
+  font-family: Verdana;
+  color: #004aad; }
+
+.card-img-top {
+  margin-bottom: 2vw;
+  max-width: 10vw;
+  max-height: 10vw;
+  align-content: center; }
+
+.btn {
+  margin-top: 2vw;
+  margin-bottom: 2vw; }
+
+#form {
+  margin: auto;
+  max-width: 60vw;
+  font-family: Verdana;
+  color: #004aad; }
+
+#recetasweb {
+  align-items: center;
+  align-content: center;
+  margin-left: 20vw; }
+
+#tarjetaPaciente {
+  max-height: 10vw;
+  background-color: #fff1ac;
+  align-items: center;
+  align-content: center;
+  border-style: solid;
+  color: #642430;
+  margin: auto; }
+
+.paciente {
+  font-family: Verdana;
+  color: #642430;
+  font-size: 20;
+  align-content: center;
+  text-align: center; }
