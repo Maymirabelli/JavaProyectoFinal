@@ -44,6 +44,9 @@
   font-family: Verdana;
   color: #004aad; }
 
+.form-group {
+  margin-bottom: 2vw; }
+
 #recetasweb {
   align-items: center;
   align-content: center;
@@ -64,3 +67,81 @@
   font-size: 20;
   align-content: center;
   text-align: center; }
+
+h1 {
+  font-family: Verdana;
+  color: #642430;
+  font-size: 20;
+  text-align: center;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+  border-style: solid;
+  border-color: #642430;
+  border-width: 2px;
+  background-color: #fff1ac; }
+
+h2 {
+  font-family: Verdana;
+  color: #642430;
+  font-size: 20;
+  text-align: center;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+  border-style: solid;
+  border-color: #642430;
+  border-width: 2px;
+  background-color: #fff1ac; }
+
+.checkbox {
+  margin-bottom: 2vw;
+  font-family: Verdana;
+  color: #004aad;
+  font-weight: bold;
+  font-size: 5;
+  margin-left: 2vw; }
+
+p {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-family: Verdana;
+  color: #642430;
+  font-weight: bolder;
+  font-size: 10; }
+
+.form-control1 {
+  max-width: 6vw;
+  margin-bottom: 3vw; }
+
+.alimentosConsumidos {
+  border-style: solid;
+  border-color: #642430;
+  border-radius: 2vw;
+  max-width: 50vw;
+  margin-bottom: 5vw;
+  margin-left: 25vw; }
+
+.cantComidas {
+  margin-left: 2vw; }
+
+.bebidas {
+  border-style: solid;
+  border-color: #642430;
+  border-radius: 2vw;
+  max-width: 50vw;
+  margin-bottom: 5vw;
+  margin-left: 25vw; }
+
+.cantBebidas {
+  margin-left: 2vw; }
+
+.fooddrink {
+  align-content: center; }
+
+input {
+  margin-right: 1.5vw; }
+
+ul {
+  list-style: none; }
+
+#fooddrink {
+  display: none; }

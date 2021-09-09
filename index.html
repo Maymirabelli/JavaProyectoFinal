@@ -17,7 +17,7 @@
     </div>
 
     
-
+    <h1> Ingresa tus datos personales para conocer tu IMC </h1>
     <form id="form">
         <div class="form-group">
           <label for="nombre">Nombre:</label>
@@ -40,12 +40,50 @@
       </form>
 
       <div id=tarjetaPaciente> </div>
-    
+      
+      
+    <section id="fooddrink">  
+        <h2> Cuestionario de hábitos Alimenticios </h2>
 
+        <div class=alimentosConsumidos>
+            <div class= "cantComidas">
+                <p> ¿Comidas al día?</p>
+                <input type="text" class="form-control1" id="comidas">
+            </div>
+        
+            <div class="checkbox">
+                <p> ¿Qué alimentos consumes?</p>
+                <ul>
+                    <li><label><input type="checkbox" value="">Carnes</label></li>
+                    <li><label><input type="checkbox" value="">Verduras</label> </li>
+                    <li><label><input type="checkbox" value="">Harinas</label></li>
+                    <li><label><input type="checkbox" value="">Pescado</label></li>
+                    <li><label><input type="checkbox" value="">Verduras de Hojas</label></li>
+                    <li><label><input type="checkbox" value="">Frutas</label></li>
+                </ul>
+            </div>
+        </div>
 
-
-
-
+        <div class=bebidas>
+            <div class= "cantBebidas">
+                <p> ¿Cuantos litros de agua consumes al día?</p>
+                <input type="text" class="form-control1" id="bebidas">
+            </div>
+        
+            <div class="checkbox">
+                <p> ¿Qué bebidas consumes?</p>
+                
+                <ul>
+                    <li> <label><input type="checkbox" value="">Alcoholicas</label></li>
+                    <li> <label><input type="checkbox" value="">Gaseosas</label></li>
+                    <li> <label><input type="checkbox" value="">Jugos Naturales</label></li>
+                    <li><label><input type="checkbox" value="">Café</label></li>
+                    <li><label><input type="checkbox" value="">Té</label></li>
+                    <li><label><input type="checkbox" value="">Mate</label></li>
+              </ul>
+            </div>
+        </div>
+    </section>
 
       <script src="./apps.js"></script>
 </body>

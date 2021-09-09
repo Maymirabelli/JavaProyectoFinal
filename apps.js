@@ -1,9 +1,13 @@
+/*PRIMERA PARTE DEL FORMULARIO*/
+
+
 class Personas {
     constructor(pNombre, pEdad, pAltura, pPeso) {
         this.nombre = pNombre;
         this.edad = pEdad;
         this.altura = pAltura;
         this.peso = pPeso;
+        
     }
 }
 
@@ -33,9 +37,12 @@ function cargarPaciente (e) {
             let pEdad = document.getElementById("edad").value
             let pAltura = document.getElementById("altura").value
             let pPeso = document.getElementById("peso").value
+            
             let paciente = new Personas (pNombre, pEdad, pAltura, pPeso)
             listaDePacientes.push(paciente)
-            mostrarPaciente()
+            mostrarPaciente() 
+            $("#fooddrink").show()
+             
         }
         else {
             alert ("No se ingresaran datos")
@@ -50,7 +57,7 @@ function mostrarPaciente(){
         $("#tarjetaPaciente").append ( 
         `<div class="paciente">
         <h3>${paciente.nombre}</h3>
-        <p>IMC: ${calcularImc (paciente.altura , paciente.peso)}</p>`)
+        <p>IMC: ${calcularImc (paciente.altura , paciente.peso)} </p>`)
     }
 }
 
@@ -64,5 +71,6 @@ let listaDePacientes = []
 
 $("#boton").on ("click", cargarPaciente)
 
+/*SEGUNDA PARTE DEL FORMULARIO*/
 
 
