@@ -40,8 +40,9 @@ function cargarPaciente (e) {
             
             let paciente = new Personas (pNombre, pEdad, pAltura, pPeso)
             listaDePacientes.push(paciente)
-            mostrarPaciente() 
+            mostrarPaciente()
             $("#fooddrink").show()
+            $("#formulario").hide()
              
         }
         else {
@@ -54,10 +55,14 @@ function cargarPaciente (e) {
 
 function mostrarPaciente(){
     for (let paciente of listaDePacientes){
-        $("#tarjetaPaciente").append ( 
+        $($("#tarjetaPaciente").append ( 
         `<div class="paciente">
         <h3>${paciente.nombre}</h3>
-        <p>IMC: ${calcularImc (paciente.altura , paciente.peso)} </p>`)
+        <p>IMC: ${calcularImc (paciente.altura , paciente.peso)} </p>`)).fadeIn ("slow" , function(){
+            $("#tarjetaPaciente").fadeOut("slow" , function(){
+                $("#tarjetaPaciente").fadeIn("slow")
+            })
+        })
     }
 }
 
